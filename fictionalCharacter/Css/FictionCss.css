@@ -1,0 +1,167 @@
+@charset "utf-8";
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css2?family=Gemunu+Libre:wght@300&family=Michroma&display=swap');
+
+
+h2, h1 {
+	font-family: 'Gemunu Libre', sans-serif;
+}
+
+
+p, ul {
+	font-family: 'Michroma', sans-serif;
+}
+
+header{
+	background-color: black;
+	color: white;
+	text-align: center;
+	padding: 1px
+}
+
+
+
+
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #760000;
+}
+
+nav li {
+	/*out the list items sid by side*/
+  float: left;
+}
+
+nav li a:link {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 20px 20px;
+  text-decoration: none;transition-duration: .7s;
+}
+
+/* Change the link color to #111 (black) on hover */
+nav li a:hover {
+  background-color:#1B0031;
+}
+
+nav li a:visited{
+	color:black;
+}
+ /*make a class that adds the stickiness to the nav bar*/
+
+.sticky{
+	position: -webkit-sticky; /* Safari */
+  position: sticky;
+	top: 0;}
+
+body{
+	background-color: black;
+}
+
+.alternate {
+	/*all the default styels for all secetions*/
+	background-color: black;
+	max-width:100%;
+	/*text color*/
+	color: white;
+	/*automaticly centers element*/
+	margin: 0 auto;
+	padding: 1px 0px 0px 17%;	
+	/*this will make the section the size of all the content even thoes floating*/
+	overflow: hidden;
+	text-align: center;
+	
+}
+
+
+ul{
+	list-style-type: none;
+	text-align: center;
+}
+#rise{
+	overflow: hidden;
+	
+}
+
+#rise img{
+	float: right;
+	margin-left: 25px;
+}
+
+
+
+
+.saber{
+	max-width: 90%;
+}
+
+
+section{
+	background-color: black;
+	max-width:100%;
+	/*text color*/
+	color: white;
+	/*automaticly centers element*/
+	margin: 0 auto;
+	padding: 100px;
+	overflow: hidden;
+	text-align: center;
+}
+
+
+
+
+.Dark {
+	float: left;
+	margin-right: 25px;
+	
+
+}
+
+#darth{
+	
+	padding-top: 0px;
+	
+}
+#Datacron{
+	float: left;
+}
+#Datacron2{
+	float: right;
+}
+#mandowar{
+	text-align: center;
+}
+
+footer a:link {
+	color:#BC0407;
+}
+
+/* if the link has been clicked on*/
+footer a:visited{
+	color:#8A0001;
+}
+
+/*when i have my mouse over the link*/
+
+
+footer a:hover{
+	color:#D60000;
+	/* get rid of underline*/
+	text-decoration: none;
+}
+
+footer a:active{
+	color: #A400CE;
+}
+
+Footer{
+	text-align: center;
+	background-color: black;
+	color:white;
+}
