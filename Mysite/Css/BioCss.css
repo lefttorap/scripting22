@@ -1,0 +1,59 @@
+@charset "utf-8";
+/* CSS Document */
+
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&family=Playfair+Display&display=swap');
+
+h1{
+	font-family: 'Playfair Display', serif;
+}
+
+
+p{
+	font-family: 'Cormorant Garamond', serif;
+	font-size: 17px;
+}
+
+
+body{
+	background-color: #000000;
+}
+
+#masthead{
+/*	background-color: #00bc9b;*/
+	background-image: url("../Img/pot.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+.weirdorange{
+	 background-color: #9F4D11;
+}
+
+img {
+  border-radius: 8px;
+}
+
+
+a:link {
+	color:#AC3739;
+}
+
+/* if the link has been clicked on*/
+a:visited{
+	color:#B32E2F;
+}
+
+/*when i have my mouse over the link*/
+
+
+a:hover{
+	color:#E0E74E;
+	/* get rid of underline*/
+	text-decoration: none;
+}
+
+a:active{
+	color: #E0E74E;
+}
+
+
