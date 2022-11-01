@@ -1,0 +1,106 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* If you want a different look for each header on a different page use an id*/
+
+#homeMasthead{
+	background-image: url("../images/backgrounds/Convocation-mobile.jpg");
+		background-size: cover;
+		background-position: center;
+	
+}
+
+#serviceMasthead{
+background-image: url("../images/Dogs/golden-retriever.jpg");
+		background-size: cover;
+		background-position: top;
+	
+}
+
+
+#ContactMasthead{
+background-image: url("../images/Dogs/Idk_this_dog.jpg");
+		background-size: cover;
+		background-position: center;
+	
+}
+
+
+
+
+
+/*set the default font size - mobile first*/
+
+.display-1{
+	font-size: 30pt;
+}
+
+
+
+
+.hight80{
+	height:90vh
+}
+
+footer{
+	background-color: #0B1026;
+}
+
+a:link {
+	color:#FFFFFF;
+}
+
+/* if the link has been clicked on*/
+a:visited{
+	color:#858585;
+}
+
+/*when i have my mouse over the link*/
+
+
+a:hover{
+	color:#7C7C7C;
+	/* get rid of underline*/
+	text-decoration: none;
+}
+
+a:active{
+	color: #959595;
+}
+
+
+/* Small devices (portrait tablets and large phones, 576px and up) */
+@media only screen and (min-width: 763px) {
+	.display-1{
+		font-size: 60pt
+	}
+	
+}
+
+
+
+@media only screen and (min-width: 768px) 
+
+{#homeMasthead{
+	
+	background-image: url("../images/Dogs/golden-retriever-dog-royalty.jpg");
+		background-size:cover;
+		background-position:top;
+			
+	
+	}
+}
+
+
+
+h2{
+	color: #1B4970
+}
+
+.darkblue{
+	background-color: #092C3E
+}
+
+
+
+
