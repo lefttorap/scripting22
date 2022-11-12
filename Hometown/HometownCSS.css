@@ -1,0 +1,133 @@
+@charset "utf-8";
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro&family=Kolker+Brush&display=swap');
+
+
+
+#homemasthead{
+	background-image: url("Img/Victoria,_British_Columbia.jpg");
+	background-size: cover;
+	background-position: top;
+	padding: 20vh;
+}
+#geomasthead{
+	background-image: url("Img/river.jpeg");
+	background-size: cover;
+	background-position: top;
+	padding: 20vh;
+}
+#peoplemasthead{
+	background-image: url("Img/Victoria-HIGH.jpeg");
+	background-size: cover;
+	background-position: top;
+	padding: 20vh;
+}
+#ecomasthead{
+	background-image: url("Img/Uptown,_Victoria,_British_Columbia.jpg");
+	background-size: cover;
+	background-position: top;
+	padding: 20vh;
+}
+#attractmasthead{
+	background-image: url("Img/goldstream-trestle.jpg");
+	background-size: cover;
+	background-position: top;
+	padding: 20vh;
+}
+h1, h3{
+	font-family: 'Kolker Brush', cursive;
+}
+
+p{
+	font-family: 'Be Vietnam Pro', sans-serif;
+}
+
+.display-1{
+	font-size: 30pt;
+}
+
+
+
+@media only screen and (min-width: 530px) {
+	.display-1{
+		font-size: 100pt
+	}
+	
+}
+
+h3{
+	font-size: 40px;
+}
+
+
+
+@media only screen and (min-width: 768px) 
+
+{#homemasthead{
+	
+	background-image: url("Img/Victoria,_British_Columbia.jpg");
+		background-size:cover;
+		background-position:top;
+			}
+	#geoemasthead{
+	
+	background-image: url("Img/river.jpeg");
+		background-size:cover;
+		background-position:top;
+	}
+	
+	#peoplemasthead{
+	background-image: url("Img/Victoria-HIGH.jpeg");
+	background-size: cover;
+	background-position: top;
+	padding: 20vh;
+}
+	#ecomasthead{
+	background-image: url("Img/Uptown,_Victoria,_British_Columbia.jpg");
+	background-size: cover;
+	background-position: center;
+	padding: 20vh;
+}
+	#attractmasthead{
+	background-image: url("Img/goldstream-trestle.jpg");
+	background-size: cover;
+	background-position: top;
+	padding: 20vh;
+}
+}
+
+
+img {
+  border-radius: 8px;
+}
+
+
+.darkblue{
+	background-color: #092C3E;
+}
+footer{
+	background-color: #092C3E;
+}
+
+a:link {
+	color:#FFFFFF;
+}
+
+/* if the link has been clicked on*/
+a:visited{
+	color:#858585;
+}
+
+/*when i have my mouse over the link*/
+
+
+a:hover{
+	color:#7C7C7C;
+	/* get rid of underline*/
+	text-decoration: none;
+}
+
+a:active{
+	color: #959595;
+}
+
