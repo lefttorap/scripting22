@@ -1,0 +1,34 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+/*#masthead{
+	background-image: url("../Img/landscape.jpg");
+	background-size:cover;
+	background-position: center;
+		padding: 200px;
+}
+
+
+
+footer{
+	background-image: url("../Img/footerimg.webp");
+	background-size: cover;
+	background-position: center;
+	padding: 200px;
+		
+}
+*/
+
+
+
+
+
+
+
+body{
+	
+	background-image:url("../Img/bkimg.jpg");
+			background-size:cover;
+	background-position: center;
+}
