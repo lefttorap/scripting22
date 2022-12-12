@@ -1,0 +1,55 @@
+@charset "utf-8";
+/* CSS Document */@import url('https://fonts.googleapis.com/css2?family=Anton&family=Be+Vietnam+Pro&display=swap');
+
+h1{
+	font-family: 'Anton', sans-serif;
+} 
+h3{
+	font-family: 'Be Vietnam Pro', sans-serif;
+}
+
+#builder{
+    position:relative;
+    height: 672px;
+}
+
+#face, #glasses, #hat{
+    position:absolute;
+}
+
+
+body{
+	background-color: whitesmoke;
+}
+
+Header{
+	background-image:url("../Img/barber-wallpaper.jpg");
+		background-position: center;
+	background-size:auto;
+}
+
+
+
+
+
+a:link {
+	color:#FFFFFF;
+}
+
+/* if the link has been clicked on*/
+a:visited{
+	color:#797979;
+}
+
+/*when i have my mouse over the link*/
+
+
+a:hover{
+	color:#D1D1D1;
+	/* get rid of underline*/
+	text-decoration: none;
+}
+
+a:active{
+	color: #00;
+}
